@@ -1,0 +1,141 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: proxima nova;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    font-size: 1.2rem;
+}
+
+.logo {
+    max-height: 8vh;
+    float: left;
+    margin: 12px 0 0 12px;
+    display: none;
+}
+
+.logo2 {
+    margin-top: 1rem;
+    height: 8rem;
+}
+
+.nav {
+    background-color: #fff;
+    height: 20vh;
+    line-height: 20vh;
+    z-index: 3;
+}
+
+.menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    background-color: #fff;
+    margin: 0;
+}
+
+.menu a {
+    display: block;
+    color: #000;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 60%;
+    max-height: 10vh;
+}
+
+.menu2 a:hover {
+    color: #feb914;
+}
+
+.menu a:hover {
+    color: #feb914;
+}
+
+.toggle {
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked + .menu {
+    display: inline-block;
+}
+
+.forside {
+    margin: 2vh 5vw 0 5vw;
+    position: relative;
+}
+
+.forside_billede {
+    background-image: url(Billeder/BæredygtigMark.jpg);
+    background-size: cover;
+    height: 78vh;
+    width: 90vw;
+}
+
+.forside_boks {
+    position: absolute;
+    left: 43%;
+    top: 55%;
+    background-color: #fff;
+    border-radius: .2rem;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.forside_h {
+    font-family: athelas;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu2 {
+        display: none;
+    }
+
+    .menu {
+        width: 30%;
+        position: absolute;
+        right: 0;
+        margin-top: 78px;
+        font-size: 2vw;
+    }
+
+    .toggle {
+        display: block;
+        margin: 0 1rem 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        cursor: pointer;
+        width: 26px;
+        float: right;
+        color: #000;
+    }
+
+    .logo {
+        margin: 18px 0 0 18px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .menu {
+        width: 100%;
+        z-index: 30;
+        font-size: 4vw;
+    }
+}
