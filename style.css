@@ -10,7 +10,7 @@ html, body {
   overflow: hidden;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
   background-color: white;
-  padding: 15px 10px; /* Large padding which will shrink on scroll (using JS) */
+  padding: 10px 10px; /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   position: fixed; /* Sticky/fixed navbar */
   width: 100%;
