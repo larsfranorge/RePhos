@@ -3,12 +3,58 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-image: url(Billeder/Baggrund.png);
+    background-repeat: repeat;
+        
     
 }
 
+.container {
+    display: grid;
+    background-image: url(Billeder/Baggrund.png);
+    grid-template-areas:
+        "navbar"
+        "overskrift1"
+        "hvemervi"
+        "overskrift2"
+        "hvorfor"
+        "overskrift3"
+        "boomerang"
+        "footer"
+        ;
+}
+
+.overskrift1 {
+    grid-area: overskrift1;
+}
+
+.hvemervi {
+    grid-area: hvemervi;
+    padding: 20px;
+    text-align: center;
+}
+
+.overskrift2 {
+    grid-area: overskrift2;
+}
+
+.hvorfor {
+    grid-area: hvorfor;
+    padding: 20px;
+    text-align: center;
+}
+
+.overskrift3 {
+    grid-area: overskrift3;
+}
+
+.boomerang {
+    grid-area: boomerang;
+}
 /* Navbar */
 
 #navbar {
+    grid-area: navbar;
   overflow: hidden;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
   background-color: white;
@@ -53,9 +99,17 @@ html, body {
 }
 
 
+
+
+
+
+
+/* Navbar Slut */
+
 .header {
     text-align: center;
     font-size: 20px;
+    color: #8fad75;
     
 }
 
@@ -64,8 +118,9 @@ html, body {
 }
 
 #hev1 {
-    width: 15%;
-    vertical-align: middle;
+    max-width: 50%;
+    
+    
     
     
     
@@ -73,51 +128,176 @@ html, body {
 
 .hev {
     font-size: 16px;
-    display: inline-block;
-}
-
-
-
-@media screen and (max-width: 580px) {
-  #navbar {
-    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
-  }
-  #navbar a {
-    float: none;
-    display: block;
     text-align: left;
-  }
-  #navbar-right {
-    float: none;
-  }
 }
 
-/* Navbar Slut */
 
-.forside {
-    margin: 2vh 5vw 0 5vw;
-    position: relative;
+
+
+/*Tablet and above*/
+@media only screen and (min-width: 650px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+         "navbar"
+        "overskrift1"
+        "hvemervi"
+        "overskrift2"
+        "hvorfor"
+        "overskrift3"
+        "boomerang"
+        "footer";
+
 }
+   
 
-.forside_billede {
-    background-image: url(Billeder/BæredygtigMark.jpg);
-    background-size: cover;
-    height: 78vh;
-    width: 90vw;
-}
+/*Laptop and above*/
+@media only screen and (min-width: 1024px) {
+    
+     
+    
+    
+     .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+             "navbar"
+        "overskrift1"
+        "hvemervi"
+        "overskrift2"
+        "hvorfor"
+        "overskrift3"
+        "boomerang"
+        "footer"
+        ;
+            
+    }
+    
+    
+    
+    /* Overskrift1 */
+    
+     .overskrift1 {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "overskrift" 
+            
+        
+    }
+    
 
-.forside_boks {
-    position: absolute;
-    left: 43%;
-    top: 55%;
-    background-color: #fff;
-    border-radius: .2rem;
-    box-shadow: 5px 5px 10px #333;
-}
+      .box__d {
+        grid-area:
+            overskrift;
+            
+    }
+    
 
-.forside_h {
-    font-family: athelas;
-    font-size: 1.5rem;
-    margin: 2rem;
-}
+    
+    /* Overskrift1 - Slut*/
+    
+    /* Hvem er vi? */
+    
+    .hvemervi {
+        display: grid;
+        text-align: center;
+        padding-right: 200px;
+        grid-template-columns:1fr 1.3fr;
+        grid-template-areas:
+            
+            "billede infotekst" 
+            
+        
+    }
+    
+    
+    
+    .box__b {
+        grid-area:
+            billede;
+            
+    }
+    
+    .box__c {
+        grid-area: infotekst;
+    }
+    
+/* Hvem er vi? - Slut */
 
+    /* Overskrift 2 */
+    
+         .overskrift2 {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "overskrift" 
+            
+        
+    }
+    
+
+
+    /* Overskrift 2- Slut */
+    
+    /* Hvad er Rephos? */
+    
+    
+        .hvorfor {
+        display: grid;
+        text-align: center;
+        padding-left: 200px;
+        grid-template-columns:1.3fr 1fr;
+        grid-template-areas:
+            
+            "infotekst billede" 
+            
+        
+    }
+    
+
+
+    
+    
+    .box__f {
+        grid-area:
+            billede;
+            
+    }
+    
+    .box__g {
+        grid-area: infotekst;
+    }
+    
+        /* Overskrift 3 */
+    
+         .overskrift3 {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "overskrift" 
+            
+        
+    }
+    
+
+
+    /* Overskrift 3 - Slut */
+    
+            /* Boomerang */
+    
+         .boomerang {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "billede" 
+            
+        
+    }
+    
+
+
+    /* Boomerang - Slut */
