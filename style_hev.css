@@ -146,12 +146,16 @@ html, body {
 }
 
 #hev1 {
-    max-width: 50%;
+    max-width: 60%;
     
     
     
+
     
-    
+}
+
+.hev2 {
+    text-align: center;
 }
 
 .hev {
@@ -319,7 +323,7 @@ html, body {
          .boomerang {
         display: grid;
         text-align: center;
-        grid-template-columns: 1fr;
+        grid-template-columns:. 1fr .;
         grid-template-areas:
             "billede" 
             
