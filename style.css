@@ -106,6 +106,34 @@ html, body {
 
 /* Navbar Slut */
 
+.forside {
+    margin: 2vh 5vw 0 5vw;
+    position: relative;
+}
+
+.forside_billede {
+    background-image: url(Billeder/BæredygtigMark.jpg);
+    background-size: cover;
+    height: 78vh;
+    width: 90vw;
+}
+
+.forside_boks {
+    position: absolute;
+    left: 43%;
+    top: 55%;
+    background-color: #fff;
+    border-radius: .2rem;
+    box-shadow: 5px 5px 10px #333;
+}
+
+.forside_h {
+    font-family: athelas;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+
 .header {
     text-align: center;
     font-size: 20px;
