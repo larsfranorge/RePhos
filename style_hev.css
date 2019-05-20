@@ -9,6 +9,10 @@ html, body {
     
 }
 
+
+
+/* Grid */
+
 .container {
     display: grid;
     background-image: url(Billeder/Baggrund.png);
@@ -79,7 +83,7 @@ html, body {
 }
 
 
-
+/* Grid - Slut */
 
 /* Navbar */
 
@@ -129,13 +133,110 @@ html, body {
   color: black;
 }
 
-
+@media screen and (max-width: 920px) {
+  #navbar {
+    display: none;
+  }
+  #navbar a {
+    display: none;
+   
+  }
+    #logo {
+        display: none;
+    }
+}
 
 
 
 
 
 /* Navbar Slut */
+
+
+/* Style the navigation menu */
+@media screen and (max-width: 920px) {
+.topnav {
+    grid-area: navbar;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #8fad75;
+    font-family: proxima nova,sans-serif;
+    background: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: white;
+    color: #8fad75;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+    
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+    #lillelogo {
+        padding-left: 10px;
+    max-width: 10%;    
+    }
+}
+
+
+@media screen and (min-width: 920px) {
+.topnav {
+    display: none;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+ display: none;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: none;
+}
+    
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  display: none;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  display: none;
+}
+}
+
+/* Diverse Koder */
 
 .forside {
     margin: 2vh 5vw 0 5vw;
@@ -233,8 +334,7 @@ html, body {
         "hvorfor"
         "overskrift3"
         "boomerang"
-        "footer"
-        ;
+        "footer";
             
     }
     
