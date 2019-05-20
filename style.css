@@ -3,8 +3,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(Billeder/Baggrund.png);
-    background-repeat: repeat;
+    
+    
         
     
 }
@@ -27,6 +27,50 @@ html, body {
 .overskrift1 {
     grid-area: overskrift1;
 }
+
+.hvemervi {
+    grid-area: hvemervi;
+    padding: 20px;
+    text-align: center;
+}
+
+.overskrift2 {
+    grid-area: overskrift2;
+}
+
+.hvorfor {
+    grid-area: hvorfor;
+    padding: 20px;
+    text-align: center;
+}
+
+.overskrift3 {
+    grid-area: overskrift3;
+}
+
+.boomerang {
+    grid-area: boomerang;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
+    background: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px; 
+    font-family: Helvetica;
+    color: black;
+    
+}
+
+.icons {
+    font-size: 50px;
+    color: black;
+  
+}
+/* Navbar */
 
 #navbar {
     grid-area: navbar;
@@ -449,6 +493,40 @@ html, body {
         
     }
     
+        .box__o {
+        grid-area: billede;
+        text-align: center;    
+            
+    }
+    
 
 
     /* Boomerang - Slut */
+    
+    /* Footer */
+
+    
+    .footer {
+         font-size: 30px;
+      display: grid;
+         text-align: left;
+         padding-left: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "tekst icons"
+    
+ 
+    }
+    .icons {
+        text-align:right;
+        grid-area: icons;
+            
+        
+    }
+    
+    
+    }
+    .footertekst {
+        grid-area: tekst;
+    }
+    

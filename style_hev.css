@@ -50,7 +50,35 @@ html, body {
 
 .boomerang {
     grid-area: boomerang;
+    text-align: center;
 }
+
+.footer {
+    grid-area: footer;
+    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 25px; 
+    font-family: Helvetica;
+    color: black;
+    
+}
+
+.icons {
+    font-size: 20px;
+    color: black;
+    
+  
+}
+
+.iconer {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
 /* Navbar */
 
 #navbar {
@@ -330,6 +358,44 @@ html, body {
         
     }
     
+            .box__o {
+        grid-area: billede;
+        text-align: center;    
+            
+    }
 
 
     /* Boomerang - Slut */
+    
+        
+    /* Footer */
+
+    
+    .footer {
+         font-size: 30px;
+      display: grid;
+         text-align: left;
+         padding-left: 50px;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas:
+            "billede icons"
+    
+ 
+    }
+    .icons {
+        text-align:right;
+        grid-area: icons;
+            
+        
+    }
+    
+    
+    }
+    .footerbillede {
+        grid-area: billede;
+        background-image: url(Billeder/FinalLOGO.png);
+        background-position: left;
+        background-size: 30%;
+        background-repeat: no-repeat;
+    }
+    
