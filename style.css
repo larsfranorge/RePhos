@@ -9,61 +9,7 @@ html, body {
     
 }
 
-.container {
-    display: grid;
-    background-image: url(Billeder/Baggrund.png);
-    grid-template-areas:
-        "navbar"
-        "overskrift1"
-        "hvemervi"
-        "overskrift2"
-        "hvorfor"
-        "overskrift3"
-        "boomerang"
-        "footer"
-        ;
-}
 
-.overskrift1 {
-    grid-area: overskrift1;
-}
-
-.hvemervi {
-    grid-area: hvemervi;
-    padding: 20px;
-    text-align: center;
-}
-
-.overskrift2 {
-    grid-area: overskrift2;
-}
-
-.hvorfor {
-    grid-area: hvorfor;
-    padding: 20px;
-    text-align: center;
-}
-
-.overskrift3 {
-    grid-area: overskrift3;
-}
-
-.boomerang {
-    grid-area: boomerang;
-    text-align: center;
-}
-
-.footer {
-    grid-area: footer;
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
-    background: white;
-    text-align: center;
-    padding: 20px;
-    font-size: 23px; 
-    font-family: Helvetica;
-    color: black;
-    
-}
 
 .icons {
     font-size: 50px;
@@ -138,7 +84,7 @@ html, body {
 /* Navbar Slut */
 
 
-/* Style the navigation menu */
+
 @media screen and (max-width: 920px) {
 .topnav {
   overflow: hidden;
@@ -147,12 +93,12 @@ html, body {
     box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
+
 .topnav #myLinks {
   display: none;
 }
 
-/* Style navigation menu links */
+
 .topnav a {
   color: #8fad75;
     font-family: proxima nova,sans-serif;
@@ -163,7 +109,7 @@ html, body {
   display: block;
 }
 
-/* Style the hamburger menu */
+
 .topnav a.icon {
   background: white;
     color: #8fad75;
@@ -174,13 +120,13 @@ html, body {
 }
     
 
-/* Add a grey background color on mouse-over */
+
 .topnav a:hover {
   background-color: white;
   color: black;
 }
 
-/* Style the active link (or home/logo) */
+
     #lillelogo {
         padding-left: 10px;
     max-width: 10%;    
@@ -193,32 +139,35 @@ html, body {
     display: none;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
+
 .topnav #myLinks {
   display: none;
 }
 
-/* Style navigation menu links */
+
 .topnav a {
  display: none;
 }
 
-/* Style the hamburger menu */
+
 .topnav a.icon {
   display: none;
 }
     
 
-/* Add a grey background color on mouse-over */
+
 .topnav a:hover {
   display: none;
 }
 
-/* Style the active link (or home/logo) */
+
 .active {
   display: none;
 }
 }
+
+/* Navbar Slut */
+
 .sidescroll {
     overflow-x: scroll;
     overflow-y: hidden;
@@ -352,29 +301,7 @@ html, body {
     display: none;
 }
 
-.hvemervi {
-    grid-area: hvemervi;
-    padding: 20px;
-    text-align: center;
-}
 
-.overskrift2 {
-    grid-area: overskrift2;
-}
-
-.hvorfor {
-    grid-area: hvorfor;
-    padding: 20px;
-    text-align: center;
-}
-
-.overskrift3 {
-    grid-area: overskrift3;
-}
-
-.boomerang {
-    grid-area: boomerang;
-}
 
 .forside {
     margin: 2vh 5vw 0 5vw;
@@ -432,204 +359,4 @@ html, body {
 
 
 
-/*Tablet and above*/
-@media only screen and (min-width: 650px) {
-    .container {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-         "navbar"
-        "overskrift1"
-        "hvemervi"
-        "overskrift2"
-        "hvorfor"
-        "overskrift3"
-        "boomerang"
-        "footer";
-
-}
-   
-
-/*Laptop and above*/
-@media only screen and (min-width: 1024px) {
-    
-     
-    
-    
-     .container {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-             "navbar"
-        "overskrift1"
-        "hvemervi"
-        "overskrift2"
-        "hvorfor"
-        "overskrift3"
-        "boomerang"
-        "footer"
-        ;
-            
-    }
-    
-    
-    
-    /* Overskrift1 */
-    
-     .overskrift1 {
-        display: grid;
-        text-align: center;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "overskrift" 
-            
-        
-    }
-    
-
-      .box__d {
-        grid-area:
-            overskrift;
-            
-    }
-    
-
-    
-    /* Overskrift1 - Slut*/
-    
-    /* Hvem er vi? */
-    
-    .hvemervi {
-        display: grid;
-        text-align: center;
-        padding-right: 200px;
-        grid-template-columns:1fr 1.3fr;
-        grid-template-areas:
-            
-            "billede infotekst" 
-            
-        
-    }
-    
-    
-    
-    .box__b {
-        grid-area:
-            billede;
-            
-    }
-    
-    .box__c {
-        grid-area: infotekst;
-    }
-    
-/* Hvem er vi? - Slut */
-
-    /* Overskrift 2 */
-    
-         .overskrift2 {
-        display: grid;
-        text-align: center;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "overskrift" 
-            
-        
-    }
-    
-
-
-    /* Overskrift 2- Slut */
-    
-    /* Hvad er Rephos? */
-    
-    
-        .hvorfor {
-        display: grid;
-        text-align: center;
-        padding-left: 200px;
-        grid-template-columns:1.3fr 1fr;
-        grid-template-areas:
-            
-            "infotekst billede" 
-            
-        
-    }
-    
-
-
-    
-    
-    .box__f {
-        grid-area:
-            billede;
-            
-    }
-    
-    .box__g {
-        grid-area: infotekst;
-    }
-    
-        /* Overskrift 3 */
-    
-         .overskrift3 {
-        display: grid;
-        text-align: center;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "overskrift" 
-            
-        
-    }
-    
-
-
-    /* Overskrift 3 - Slut */
-    
-            /* Boomerang */
-    
-         .boomerang {
-        display: grid;
-        text-align: center;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "billede" 
-            
-        
-    }
-    
-        .box__o {
-        grid-area: billede;
-        text-align: center;    
-            
-    }
-    
-
-
-    /* Boomerang - Slut */
-    
-    /* Footer */
-
-    
-    .footer {
-         font-size: 30px;
-      display: grid;
-         text-align: left;
-         padding-left: 50px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "tekst icons"
-    
- 
-    }
-    .icons {
-        text-align:right;
-        grid-area: icons;
-            
-        
-    }
-    
-    
-    }
-    .footertekst {
-        grid-area: tekst;
-    }
     

@@ -3,8 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(Billeder/Baggrund.png);
-    background-repeat: repeat;
+   
         
     
 }
@@ -15,7 +14,9 @@ html, body {
 
 .container {
     display: grid;
-    background-image: url(Billeder/Baggrund.png);
+    background-image: url(Billeder/1m%20spire.png);
+    background-position: right;
+    background-repeat: no-repeat;
     grid-template-areas:
         "navbar"
         "overskrift1"
@@ -26,6 +27,18 @@ html, body {
         "boomerang"
         "footer"
         ;
+    
+    
+}
+
+@media screen and (max-width: 920px) {
+.container {
+    
+    background-image: none;
+
+    
+    
+}
 }
 
 .overskrift1 {
@@ -281,12 +294,9 @@ html, body {
 
 #hev1 {
     max-width: 60%;
-    
-    
-    
-
-    
 }
+
+
 
 .hev2 {
     text-align: center;
@@ -368,7 +378,7 @@ html, body {
     .hvemervi {
         display: grid;
         text-align: center;
-        padding-right: 200px;
+        padding-right: 130px;
         grid-template-columns:1fr 1.3fr;
         grid-template-areas:
             
@@ -413,7 +423,7 @@ html, body {
         .hvorfor {
         display: grid;
         text-align: center;
-        padding-left: 200px;
+        padding-left: 136px;
         grid-template-columns:1.3fr 1fr;
         grid-template-areas:
             
@@ -489,7 +499,7 @@ html, body {
  
     }
     .icons {
-        text-align:right;
+        text-align: right;
         grid-area: icons;
             
         
