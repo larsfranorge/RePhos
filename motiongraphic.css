@@ -3,50 +3,59 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #27ffff;
 }
 
 #ultraWideImageOfTheMastery {
     height: 97vh;
+    z-index: 10;
+}
+
+.textbox {
+    background-color: #fff;
+    opacity: .5;
+    border-radius: .2rem;
+    box-shadow: 5px 5px 10px #333;
+    position: absolute;
+    bottom: 5vh;
+    width: 35vw;
+    font-family: athelas;
+    color: #86ae6f;
+    font-size: 1.5rem;
+}
+
+.textbox p {
+    padding: 2rem;
+    margin: 0;
+}
+
+.textbox h1 {
+    margin: 0;
+    padding: 2rem 1rem;
 }
 
 .textbox1 {
-    background-color: #fff;
-    border-radius: .2rem;
-    box-shadow: 5px 5px 10px #333;
-    position: absolute;
     left: 30rem;
-    bottom: 5vh;
 }
 
 .textbox2 {
-    background-color: #fff;
-    border-radius: .2rem;
-    box-shadow: 5px 5px 10px #333;
-    position: absolute;
     left: 90rem;
-    bottom: 5vh;
 }
 
 .textbox3 {
-    background-color: #fff;
-    border-radius: .2rem;
-    box-shadow: 5px 5px 10px #333;
-    position: absolute;
     left: 140rem;
-    bottom: 5vh;
 }
 
 .textbox4 {
-    background-color: #fff;
-    border-radius: .2rem;
-    box-shadow: 5px 5px 10px #333;
-    position: absolute;
-    left: 195rem;
-    bottom: 5vh;
+    left: 175rem;
+}
+
+.textbox5 {
+    left: 200rem;
 }
 
 .textbox_h {
-    font-family: proxima nova;
+    
     font-size: 1.5rem;
     margin: 2rem;
     display: block;
@@ -54,58 +63,51 @@ html, body {
 
 .sun {
     position: absolute;
-    left: 120rem;
+    left: 100rem;
     top: 1rem;
     width: 8rem;
+    z-index: 2;
 }
 
 .sky {
     position: absolute;
-    left: 40rem;
-    top: 10rem;
     width: 10rem;
 }
 
 .sky1 {
-    position: absolute;
-    left: 54rem;
-    top: 7rem;
-    width: 10rem;
+    left: 20rem;
+    top: 3rem;
 }
 
 .sky2 {
-    position: absolute;
-    left: 46rem;
-    top: 1rem;
-    width: 10rem;
+    left: 54rem;
+    top: 7rem;
 }
 
 .sky3 {
-    position: absolute;
-    left: 20rem;
-    top: 5rem;
-    width: 10rem;
+    left: 40rem;
+    top: 1rem;
 }
 
 .sky4 {
-    position: absolute;
-    left: 185rem;
-    top: 2rem;
-    width: 10rem;
+    left: 7rem;
+    top: 8rem;
 }
 
 .sky5 {
-    position: absolute;
-    left: 160rem;
-    top: 6rem;
-    width: 10rem;
+    left: 185rem;
+    top: 2rem;
 }
 
 .sky6 {
-    position: absolute;
-    left: 180rem;
+    left: 160rem;
+    top: 6rem;
+    z-index: 3;
+}
+
+.sky7 {
+    left: 195rem;
     top: 5rem;
-    width: 10rem;
 }
 
 .tilbage_link {

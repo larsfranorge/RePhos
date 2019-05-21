@@ -193,9 +193,9 @@ html, body {
 }
 
 .forside_billede {
-    background-image: url(Billeder/BæredygtigMark.jpg);
+    background-image: url(Billeder/medp%C3%A5eventyr.jpg);
     background-size: cover;
-    height: 78vh;
+    height: 83.2vh;
     width: 90vw;
 }
 
@@ -206,12 +206,15 @@ html, body {
     background-color: #fff;
     border-radius: .2rem;
     box-shadow: 5px 5px 10px #333;
+    text-decoration-line: none;
+    
 }
 
 .forside_h {
     font-family: athelas;
     font-size: 1.5rem;
     margin: 2rem;
+    color: black;
 }
 
 
@@ -241,6 +244,83 @@ html, body {
 }
 
 
-
-
+@media screen and (max-width: 920px) {
     
+    .forside {
+    display: none;
+        
+}
+
+.forside_billede {
+    display: none;
+}
+    
+    .forside_boks {
+    display: none;
+    
+}
+
+.forside_h {
+    display: none;
+}
+
+}
+
+
+@media screen and (max-width: 920px) {
+
+    .forside2 {
+    
+    position: relative;
+}
+
+.forside_billede1 {
+      
+    max-height: 100%;
+    max-width: 100%;
+}
+
+    .forside_boks2 {
+    position: absolute;
+    left: 43%;
+    top: 55%;
+    background-color: #fff;
+    border-radius: .2rem;
+    box-shadow: 5px 5px 10px #333;
+    text-decoration-line: none;
+        z-index: 500;
+        
+    
+}
+
+.forside_h2 {
+    font-family: athelas;
+    font-size: 1.5rem;
+    margin: 2rem;
+    color: black;
+    z-index: 501;
+}
+    
+    }
+
+@media screen and (min-width: 920px) {
+
+    .forside2 {
+    
+    display: none;
+}
+
+.forside_billede1 {
+   display: none;
+}
+
+    .forside_boks2 {
+display: none;
+    
+}
+
+.forside_h2 {
+   display: none;
+}
+    
+    }
