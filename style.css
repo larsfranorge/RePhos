@@ -73,29 +73,31 @@ html, body {
 /* Navbar */
 
 #navbar {
-    grid-area: navbar;
-    overflow: hidden;
+    
+  overflow: hidden;
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
-    background-color: white;
-    padding: 10px 10px; 
-    transition: 0.4s; 
-    position: fixed; 
-    width: 100%;
-    top: 0; 
-    z-index: 9999; 
+  background-color: white;
+  padding: 10px 10px; 
+  transition: 0.4s; 
+  position: fixed; 
+  width: 100%;
+  top: 0; 
+  z-index: 9999; 
     display: inline-block;
     text-align: center;
 }
 
 
 #navbar a {
-    color: black;
-    padding: 70px;
-    text-decoration: none;
-    font-size: 15px; 
-    line-height: 10px;
-    font-family: proxima nova;
-    letter-spacing: .1rem;
+  color: black;
+  text-align: center;
+  padding: 70px;
+  text-decoration: none;
+  font-size: 15px; 
+  line-height: 10px;
+  border-radius: 0.2px;
+    font-family: proxima nova, sans-serif;
+    
 }
 
 
@@ -116,6 +118,107 @@ html, body {
   color: black;
 }
 
+@media screen and (max-width: 920px) {
+  #navbar {
+    display: none;
+  }
+  #navbar a {
+    display: none;
+   
+  }
+    #logo {
+        display: none;
+    }
+}
+
+
+
+
+
+/* Navbar Slut */
+
+
+/* Style the navigation menu */
+@media screen and (max-width: 920px) {
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #8fad75;
+    font-family: proxima nova,sans-serif;
+    background: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: white;
+    color: #8fad75;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+    
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+    #lillelogo {
+        padding-left: 10px;
+    max-width: 10%;    
+    }
+}
+
+
+@media screen and (min-width: 920px) {
+.topnav {
+    display: none;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+ display: none;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: none;
+}
+    
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  display: none;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  display: none;
+}
+}
 .sidescroll {
     overflow-x: scroll;
     overflow-y: hidden;
