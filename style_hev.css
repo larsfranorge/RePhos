@@ -9,6 +9,10 @@ html, body {
     
 }
 
+
+
+/* Grid */
+
 .container {
     display: grid;
     background-image: url(Billeder/Baggrund.png);
@@ -50,7 +54,37 @@ html, body {
 
 .boomerang {
     grid-area: boomerang;
+    text-align: center;
 }
+
+.footer {
+    grid-area: footer;
+    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+    padding: 60px;
+    font-size: 25px; 
+    font-family: Helvetica;
+    color: black;
+    
+}
+
+.icons {
+    font-size: 20px;
+    color: black;
+    
+  
+}
+
+.iconer {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Grid - Slut */
+
 /* Navbar */
 
 #navbar {
@@ -77,6 +111,7 @@ html, body {
   font-size: 15px; 
   line-height: 10px;
   border-radius: 0.2px;
+    font-family: proxima nova, sans-serif;
     
 }
 
@@ -98,13 +133,110 @@ html, body {
   color: black;
 }
 
-
+@media screen and (max-width: 920px) {
+  #navbar {
+    display: none;
+  }
+  #navbar a {
+    display: none;
+   
+  }
+    #logo {
+        display: none;
+    }
+}
 
 
 
 
 
 /* Navbar Slut */
+
+
+/* Style the navigation menu */
+@media screen and (max-width: 920px) {
+.topnav {
+    grid-area: navbar;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #8fad75;
+    font-family: proxima nova,sans-serif;
+    background: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: white;
+    color: #8fad75;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+    
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+    #lillelogo {
+        padding-left: 10px;
+    max-width: 10%;    
+    }
+}
+
+
+@media screen and (min-width: 920px) {
+.topnav {
+    display: none;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+ display: none;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: none;
+}
+    
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  display: none;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  display: none;
+}
+}
+
+/* Diverse Koder */
 
 .forside {
     margin: 2vh 5vw 0 5vw;
@@ -138,6 +270,8 @@ html, body {
     text-align: center;
     font-size: 20px;
     color: #8fad75;
+    font-family: proxima nova, sans-serif;
+    font-weight: 700;
     
 }
 
@@ -161,6 +295,7 @@ html, body {
 .hev {
     font-size: 16px;
     text-align: left;
+    font-family: proxima nova,sans-serif;
 }
 
 
@@ -199,8 +334,7 @@ html, body {
         "hvorfor"
         "overskrift3"
         "boomerang"
-        "footer"
-        ;
+        "footer";
             
     }
     
@@ -330,6 +464,44 @@ html, body {
         
     }
     
+            .box__o {
+        grid-area: billede;
+        text-align: center;    
+            
+    }
 
 
     /* Boomerang - Slut */
+    
+        
+    /* Footer */
+
+    
+    .footer {
+         font-size: 30px;
+      display: grid;
+         text-align: left;
+         padding-left: 50px;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas:
+            "billede icons"
+    
+ 
+    }
+    .icons {
+        text-align:right;
+        grid-area: icons;
+            
+        
+    }
+    
+    
+    }
+    .footerbillede {
+        grid-area: billede;
+        background-image: url(Billeder/FinalLOGO.png);
+        background-position: left;
+        background-size: 30%;
+        background-repeat: no-repeat;
+    }
+    
