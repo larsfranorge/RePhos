@@ -17,7 +17,7 @@ p {
 
 .baggrund {
     height: 97vh;
-    width: 3944px;
+    width: 9500px;
     background-color: #87ceeb;
     z-index: -100;
     position: absolute;
@@ -57,19 +57,34 @@ p {
 
 .textbox2 {
     position: absolute;
-    top: 32vh;
-    width: 80vw;
-    margin-left: 10vw;
+    top: 10vh;
+    width: 50vw;
+    margin-left: 25vw;
     transform: translate(-50%, -50%);
     justify-content: center;
-    color: #fff;
-    font-size: 1.3rem;
-    text-shadow: rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-shadow: rgba(0, 0, 0, 1);
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.textbox3 {
+    position: absolute;
+    top: 10vh;
+    width: 50vw;
+    margin-left: 25vw;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-shadow: rgba(0, 0, 0, 1);
+    padding: 1rem 1rem 1rem 2rem;
 }
 
 .textbox p {
     padding: 2rem;
-    margin: 0;
 }
 
 .textbox h1 {
@@ -138,6 +153,13 @@ p {
     left: 195rem;
     top: 5rem;
     z-index: -4;
+}
+
+.car {
+    position: absolute;
+    left: 340rem;
+    bottom: 10vh;
+    width: 30rem;
 }
 
 .tilbage {
