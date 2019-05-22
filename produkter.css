@@ -325,3 +325,15 @@ input:checked ~ .content {
     transition-delay: 0.5s;
 
 }
+
+@media screen and (max-width: 920px) {
+  .card1 {
+    width: 150px;
+  }
+  .card2 {
+    width: 150px;
+  }
+  .card3 {
+    width: 150px;
+  }
+}
