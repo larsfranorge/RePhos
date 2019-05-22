@@ -1,27 +1,70 @@
 html, body {
     width: 100%;
-    height: 100%;
+    height: 97vh;
     margin: 0;
     padding: 0;
-    background-color: #27ffff;
 }
 
-#ultraWideImageOfTheMastery {
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    font-family: proxima nova, sans-serif;
+    letter-spacing: .1rem;
+}
+
+.baggrund {
     height: 97vh;
-    z-index: 10;
+    width: 3944px;
+    background-color: #87ceeb;
+    z-index: -100;
+    position: absolute;
+}
+
+.motionGraphic {
+    height: 97vh;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 10rem;
 }
 
 .textbox {
-    background-color: #fff;
-    opacity: .5;
-    border-radius: .2rem;
-    box-shadow: 5px 5px 10px #333;
     position: absolute;
-    bottom: 5vh;
-    width: 35vw;
-    font-family: athelas;
-    color: #86ae6f;
-    font-size: 1.5rem;
+    bottom: 3vh;
+    width: 100vw;
+    color: #fff;
+    font-size: 1.3rem;
+    text-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.textbox1 {
+    position: absolute;
+    top: 42vh;
+    width: 100vw;
+    text-align: center;
+    color: #fff;
+    font-size: 1.7rem;
+    text-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.textbox2 {
+    position: absolute;
+    top: 32vh;
+    width: 80vw;
+    margin-left: 10vw;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    color: #fff;
+    font-size: 1.3rem;
+    text-shadow: rgba(0, 0, 0, 0.3);
 }
 
 .textbox p {
@@ -32,26 +75,6 @@ html, body {
 .textbox h1 {
     margin: 0;
     padding: 2rem 1rem;
-}
-
-.textbox1 {
-    left: 30rem;
-}
-
-.textbox2 {
-    left: 90rem;
-}
-
-.textbox3 {
-    left: 140rem;
-}
-
-.textbox4 {
-    left: 175rem;
-}
-
-.textbox5 {
-    left: 200rem;
 }
 
 .textbox_h {
@@ -66,61 +89,87 @@ html, body {
     left: 100rem;
     top: 1rem;
     width: 8rem;
-    z-index: 2;
+    z-index: -5;
 }
 
 .sky {
     position: absolute;
     width: 10rem;
+    z-index: -1;
 }
 
 .sky1 {
-    left: 20rem;
+    left: 30rem;
     top: 3rem;
+    z-index: -1;
 }
 
 .sky2 {
-    left: 54rem;
+    left: 80rem;
     top: 7rem;
+    z-index: -1;
 }
 
 .sky3 {
-    left: 40rem;
+    left: 60rem;
     top: 1rem;
+    z-index: -1;
 }
 
 .sky4 {
-    left: 7rem;
+    left: 10rem;
     top: 8rem;
+    z-index: -4;
 }
 
 .sky5 {
     left: 185rem;
     top: 2rem;
+    z-index: -4;
 }
 
 .sky6 {
     left: 160rem;
     top: 6rem;
-    z-index: 3;
+    z-index: -4;
 }
 
 .sky7 {
     left: 195rem;
     top: 5rem;
-}
-
-.tilbage_link {
-    position: absolute;
-    top: 4%;
-    left: 2%;
-    height: 100%;
-    
+    z-index: -4;
 }
 
 .tilbage {
-    position: -webkit-sticky;
-    position: sticky;
-    width: 5rem;
+    position: absolute;
+    top: 4%;
     left: 2vw;
+    background-color: #fff;
+    border-radius: 300rem;
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8));
+}
+
+.tilbage_tegn {
+    margin: 1rem;
+}
+
+.scroll {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    right: .1vw;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10rem;
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8));
+}
+
+.scroll_tekst {
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+.scroll_tegn {
+    margin: 1rem;
+    
 }
