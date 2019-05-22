@@ -56,6 +56,7 @@ html, body {
 #navbar a:hover {
   background-color: #ddd;
   color: black;
+    
 }
 
 @media screen and (max-width: 920px) {
