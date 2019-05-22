@@ -7,34 +7,43 @@
     <link rel="stylesheet" type="text/css" href="motiongraphic.css">
     <link rel="stylesheet" href="https://use.typekit.net/beb1ucs.css">
     <script src="node_modules/lax.js/src/lax.js" ></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
-        <section id="container">
-                <a class="tilbage_link" href="index.html">
-                    <img src="Billeder/tilbage.png" class="tilbage">
-                    
-                </a>
-                <img id="ultraWideImageOfTheMastery" src="Billeder/Illustration uden skyer og bg_Tegnebræt 1.png">
-                <div class="lax textbox textbox1" 
-                data-lax-opacity= "0 1, 100 1, 450 1, 550 0.01">
-                    <p>Naturlige næringsstoffer bliver suget op af mosen</p>
+        <article class="container">
+                <div class="baggrund"></div>
+                <img class="motionGraphic" src="Billeder/MotionGraphic.png">
+
+                <img class="logo" src="Billeder/FinalLOGO.png">
+                <div class="lax textbox1" 
+                data-lax-opacity= "0 1, 1 0">
+                    <p>Kom med på en rejse for at se hvordan Rephos' produkter bliver lavet</p>
                 </div>
 
-                <div class="lax textbox textbox2" 
-                data-lax-opacity= "450 0.01, 550 1, 1450 1, 1550 0.01">
-                    <p>De naturlige næringsstoffer bliver behandlet hos Rephos</p>
+                <div class="lax textbox2" 
+                data-lax-opacity= "450 0.01, 550 1, 1450 1, 1550 0.01"
+                data-lax-translate-x= "0 0, 2000 2000">
+                    <p>Mange års landbrug har desværre ført til at mange danske vandmiljøer er blevet beriget med vækstfremmende stoffer. 
+                        Dette resulterer i forhøjet algeopblomstring der skader den naturlige balance.
+                        Hos Rephos tror vi på at vi kan genoprette balancen og samtidig skabe værdi med vores produkter.
+                        Det gør vi ved at pumpe slam op fra de danske vandmiljøer hvor anddelen af vækstfremmende stoffer er for høj.
+                        Det sikrer mindre algevækst i vandmiljøerne og et bedre miljø for dyrelivet.
+                        Det berigede slam kan vi med hjælp fra vores samarbejdspartnere genanvende som base i vores produkter.
+                    </p>
                 </div>
 
                 <div class="lax textbox textbox3" 
-                data-lax-opacity= "1450 0.01, 1550 1, 2000 1, 2100 0.01">
+                data-lax-opacity= "1450 0.01, 1550 1, 2000 1, 2100 0.01"
+                data-lax-translate-x= "0 0, 2000 2000">
                     <p>De naturlige næringsstoffer bliver omdannet til en plantesæk, som køres ud til en forhandler</p>
                 </div>
 
                 <div class="lax textbox textbox4" 
                 data-lax-translate-x= "300 0, 3000 200"
-                data-lax-opacity= "2000 0.01, 2100 1, 3000 1">
+                data-lax-opacity= "2000 0.01, 2100 1, 3000 1"
+                data-lax-translate-x= "0 0, 2500 2500">
                     <p>Kunden henter en plantesæk hos en forhandler</p>
                 </div>
 
@@ -70,7 +79,19 @@
                 data-lax-translate-y= "200 100, 800 0, 1200 -50, 1600 -100 , 2000 -50, 2400 0, 2800 100"
                 data-lax-rotate="500 0, 3000 500">
                 
-        </section>
+                <a href="index.html">
+                    <div class="lax tilbage" data-lax-translate-x= "0 0, 4000 4000">
+                    <i class="fas fa-arrow-left fa-2x tilbage_tegn"></i>
+                    </div>
+                </a>
+
+                <div class="lax scroll" 
+                data-lax-opacity= "0 1, 1 0">
+                    <p class="scroll_tekst">Scroll</p>
+                    <i class="fas fa-chevron-right fa-2x scroll_tegn"></i>
+                </div>
+                
+            </article>
         
         
 </body>
