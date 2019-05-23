@@ -6,6 +6,7 @@ html, body {
     background-image: url(Billeder/SPIREE-01.png);
     background-repeat: no-repeat;
     background-position: right;
+    position: sticky;
 
 
    
@@ -168,23 +169,40 @@ html, body {
 
   /* Footer */
 
+ 
+
   .footer {
-    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
-    background: white;
-    text-align: center;
-    padding: 60px;
-    font-size: 25px; 
-    font-family: proxima nova, sans-serif;
-    color: black;
-    
+    font-size: 30px;
+    font-family: proxima nova;
+ display: grid;
+    text-align: left;
+    padding-left: 50px;
+   grid-template-columns: 1fr 2fr;
+   grid-template-areas:
+       "billede icons"
+
+
+}
+.icons {
+   text-align: right;
+   grid-area: icons;
+       
+   
 }
 
-.icons {
-    font-size: 20px;
-    color: black;
-    
-  
+
+
+
+
+.footerbillede {
+   grid-area: billede;
+   background-image: url(Billeder/FinalLOGO.png);
+   background-position: left;
+   background-size: 30%;
+   background-repeat: no-repeat;
 }
+
+
 
 .iconer {
     color: black;
@@ -340,4 +358,23 @@ input:checked ~ .content {
   .card3 {
     width: 150px;
   }
+}
+
+@media screen and (max-width: 920px) {
+
+.footer {
+  text-align: center;
+  grid-template-areas:
+  "icons icons";
+  padding-left: 0px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.footerbillede {
+  display: none;
+}
+  
 }
