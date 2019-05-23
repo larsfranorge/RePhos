@@ -11,20 +11,21 @@ a {
 }
 
 p {
-    font-family: proxima nova, sans-serif;
+    font-family: proxima-nova, sans-serif;
     letter-spacing: .1rem;
+    font-weight: 300;
 }
 
 .baggrund {
-    height: 97vh;
+    height: 700px;
     width: 9500px;
-    background-color: #87ceeb;
+    background-image: linear-gradient(to bottom left, rgba(135, 206, 235, 1) 60%, rgba(237, 233, 121, .7));
     z-index: -100;
     position: absolute;
 }
 
 .motionGraphic {
-    height: 97vh;
+    height: 700px;
 }
 
 .logo {
@@ -57,7 +58,7 @@ p {
 
 .textbox2 {
     position: absolute;
-    top: 10vh;
+    top: 8vh;
     width: 50vw;
     margin-left: 25vw;
     transform: translate(-50%, -50%);
@@ -71,7 +72,35 @@ p {
 
 .textbox3 {
     position: absolute;
-    top: 10vh;
+    top: 4vh;
+    width: 50vw;
+    margin-left: 25vw;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-shadow: rgba(0, 0, 0, 1);
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.textbox4 {
+    position: absolute;
+    top: 4vh;
+    width: 50vw;
+    margin-left: 25vw;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    text-shadow: rgba(0, 0, 0, 1);
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+.textbox5 {
+    position: absolute;
+    top: 4vh;
     width: 50vw;
     margin-left: 25vw;
     transform: translate(-50%, -50%);
@@ -155,6 +184,36 @@ p {
     z-index: -4;
 }
 
+.sky8 {
+    left: 230rem;
+    top: 7rem;
+    z-index: -4;
+}
+
+.sky9 {
+    left: 245rem;
+    top: 4rem;
+    z-index: -4;
+}
+
+.sky10 {
+    left: 255rem;
+    top: 2rem;
+    z-index: -4;
+}
+
+.sky11 {
+    left: 310rem;
+    top: 7rem;
+    z-index: -4;
+}
+
+.sky12 {
+    left: 320rem;
+    top: 3rem;
+    z-index: -4;
+}
+
 .car {
     position: absolute;
     left: 340rem;
@@ -172,7 +231,7 @@ p {
 }
 
 .tilbage_tegn {
-    margin: 1rem;
+    margin: 1rem 1.1rem;
 }
 
 .scroll {
@@ -194,4 +253,24 @@ p {
 .scroll_tegn {
     margin: 1rem;
     
+}
+
+.logo1 {
+    position: absolute;
+    left: 545rem;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    width: 10rem;
+}
+
+.textbox6 {
+    position: absolute;
+    left: 497.5rem;
+    top: 32%;
+    width: 100vw;
+    text-align: center;
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
 }
