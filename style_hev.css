@@ -9,17 +9,6 @@ html, body {
 }
 
 
-.bgtilprodukter {
-    background-image: url(Billeder/bggtilprodukter.png);
-    height: 150px;
-    width: 100%;
-  }
-
-  ( SÅDAN SKAL HTML SE UD:   <br>
-  <div class="bgtilprodukter">
-      
-  </div>
-)
 
 
 /* Grid */
@@ -526,6 +515,20 @@ html, body {
         background-size: 30%;
         background-repeat: no-repeat;
     }
+    
+    
+    .bgtilprodukter {
+    background-image: url(Billeder/bggtilprodukter.png);
+    height: 150px;
+    width: 100%;
+  }
+
+  ( SÅDAN SKAL HTML SE UD:   <br>
+  <div class="bgtilprodukter">
+      
+  </div>
+)
+
     
     }
     }

@@ -1,4 +1,4 @@
-html, body {
+html ,body {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -6,7 +6,7 @@ html, body {
     background-image: url(Billeder/SPIREE-01.png);
     background-repeat: no-repeat;
     background-position: right;
-    position: sticky;
+    
 
 
    
@@ -187,6 +187,7 @@ html, body {
 .icons {
    text-align: right;
    grid-area: icons;
+    padding-right: 
        
    
 }
@@ -245,7 +246,7 @@ width: 30%;
 .produkt_info {
     padding-left: 30%;
     padding-right: 30%;
-    font-family: proxima nova, light;
+    font-family: proxima nova, sans-serif;
     font-size: 17px;
     
 }
@@ -327,7 +328,7 @@ input:checked ~ .toggle
 
 .imgbx1,
 .content {
-    font-family: proxima nova, bold;
+    font-family: proxima nova, sans-serif;
     text-align: center;
     position: absolute;
     top: 0;
@@ -361,6 +362,9 @@ input:checked ~ .content {
   .card3 {
     width: 150px;
   }
+   html ,body {
+        background-image: none;
+    }
 }
 
 @media screen and (max-width: 920px) {
