@@ -9,6 +9,18 @@ html, body {
 }
 
 
+.bgtilprodukter {
+    background-image: url(Billeder/bggtilprodukter.png);
+    height: 150px;
+    width: 100%;
+  }
+
+  ( SÅDAN SKAL HTML SE UD:   <br>
+  <div class="bgtilprodukter">
+      
+  </div>
+)
+
 
 /* Grid */
 

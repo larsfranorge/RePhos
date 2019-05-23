@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(Billeder/1m%20spire.png);
+    background-image: url(Billeder/SPIREE-01.png);
     background-repeat: no-repeat;
     background-position: right;
 
@@ -217,8 +217,8 @@ width: 30%;
 
 .bgtilprodukter {
   background-image: url(Billeder/bggtilprodukter.png);
-  background-size: contain;
-  height: 200px;
+  height: 150px;
+  width: 100%;
 }
 
 .produkt_info {
