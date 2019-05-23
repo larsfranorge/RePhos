@@ -506,7 +506,7 @@ html, body {
     }
     
     
-    }
+    
     .footerbillede {
         grid-area: billede;
         background-image: url(Billeder/FinalLOGO.png);
@@ -515,3 +515,5 @@ html, body {
         background-repeat: no-repeat;
     }
     
+    }
+    }
