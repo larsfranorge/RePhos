@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(Billeder/1m%20spire.png), url(Billeder/bggtilprodukter.png);
+    background-image: url(Billeder/1m%20spire.png);
     background-repeat: no-repeat;
     background-position: right;
 
@@ -12,6 +12,7 @@ html, body {
         
     
 }
+
 
 /* Navbar */
 
@@ -214,6 +215,12 @@ width: 30%;
 
 }
 
+.bgtilprodukter {
+  background-image: url(Billeder/bggtilprodukter.png);
+  background-size: contain;
+  height: 200px;
+}
+
 .produkt_info {
     padding-left: 30%;
     padding-right: 30%;
@@ -247,7 +254,6 @@ width: 30%;
     position: relative;
     width: 400px;
     height: 308px;
-    background:white;
     overflow: hidden;
 }
 
@@ -255,7 +261,6 @@ width: 30%;
     position: relative;
     width: 400px;
     height: 308px;
-    background:white;
     overflow: hidden;
 }
 
@@ -263,7 +268,6 @@ width: 30%;
     position: relative;
     width: 400px;
     height: 308px;
-    background:white;
     overflow: hidden;
 }
 input,
