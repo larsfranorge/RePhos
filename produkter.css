@@ -220,7 +220,7 @@ html ,body {
 /* PRODUKTER */
 
 .produktoverskrift {
-    font-size: 35px;
+    font-size: 15px;
     text-align: center;
     font-family: proxima nova, sans-serif;
     color: #8fad75;
@@ -255,7 +255,7 @@ width: 30%;
     text-align: center;
     font-family: proxima nova, sans-serif;
     color: #8fad75;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .champostbillede {
@@ -302,6 +302,7 @@ input,
     right: 20px;
     outline: none;
     z-index: 10;
+    cursor: pointer;
 }
 input
 {

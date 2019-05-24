@@ -26,6 +26,7 @@ html, body {
         "hvorfor"
         "overskrift3"
         "boomerang"
+        "gras"
         "footer"
         ;
     
@@ -70,6 +71,11 @@ html, body {
     grid-area: boomerang;
     text-align: center;
 }
+
+.gras {
+    grid-area: gras;
+}
+
 
 .footer {
     grid-area: footer;
@@ -147,7 +153,7 @@ html, body {
   color: black;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 940px) {
   #navbar {
     display: none;
   }
@@ -168,7 +174,7 @@ html, body {
 
 
 /* Style the navigation menu */
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 940px) {
 .topnav {
     grid-area: navbar;
   overflow: hidden;
@@ -218,7 +224,7 @@ html, body {
 }
 
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 940px) {
 .topnav {
     display: none;
 }
@@ -324,6 +330,7 @@ html, body {
         "hvorfor"
         "overskrift3"
         "boomerang"
+            "gras"
         "footer";
 
 }
@@ -345,6 +352,7 @@ html, body {
         "hvorfor"
         "overskrift3"
         "boomerang"
+            "gras"
         "footer";
             
     }
@@ -468,7 +476,32 @@ html, body {
          .boomerang {
         display: grid;
         text-align: center;
-        grid-template-columns:. 1fr .;
+        grid-template-columns:. 1fr;
+        grid-template-areas:
+            "billede" 
+            
+        
+    }
+    
+            .box__o {
+        grid-area: billede;
+        text-align: center;    
+            
+    }
+
+
+    /* Boomerang - Slut */
+    
+    
+            /* Boomerang */
+    
+         .gras {
+        display: grid;
+             background-image: url(Billeder/bggtilprodukter.png);
+    height: 150px;
+    width: 100%;
+        text-align: center;
+        grid-template-columns:. 1fr;
         grid-template-areas:
             "billede" 
             
@@ -517,17 +550,8 @@ html, body {
     }
     
     
-    .bgtilprodukter {
-    background-image: url(Billeder/bggtilprodukter.png);
-    height: 150px;
-    width: 100%;
-  }
 
-  ( SÅDAN SKAL HTML SE UD:   <br>
-  <div class="bgtilprodukter">
-      
-  </div>
-)
+
 
     
     }
