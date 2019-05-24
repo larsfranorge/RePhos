@@ -1,3 +1,6 @@
+
+/* ------------------------------------------------------- Universelle indstillinger ------------------------------------------------------- */
+
 html, body {
     width: 100%;
     height: 97vh;
@@ -16,6 +19,15 @@ p {
     font-weight: 300;
 }
 
+h1 {
+    margin: 0;
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: .1rem;
+    font-weight: 300;
+}
+
+/* ------------------------------------------------------- Baggrunde + Motion Graphic Billedet ------------------------------------------------------- */
+
 .baggrund {
     height: 700px;
     width: 7655px;
@@ -28,105 +40,108 @@ p {
     height: 700px;
 }
 
+.baggrund2 {
+    height: 700px;
+    width: 1800px;
+    position: absolute;
+    left: 478rem;
+    z-index: -101;
+    top: 0;
+    background-image: url(billeder/SpireBaggrund.png);
+}
+
+/* ------------------------------------------------------- Elementer på starsiden ------------------------------------------------------- */
+
+.tilbage {
+    position: absolute;
+    top: 4%;
+    left: 2vw;
+    background-color: #fff;
+    border-radius: 300rem;
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8);
+}
+
+.tilbage_tegn {
+    margin: 1rem 1.1rem;
+}
+
 .logo {
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 28%;
     transform: translate(-50%, -50%);
     justify-content: center;
     width: 10rem;
 }
 
-.textbox {
-    position: absolute;
-    bottom: 3vh;
-    width: 100vw;
-    color: #fff;
-    font-size: 1.3rem;
-    text-shadow: rgba(0, 0, 0, 0.3);
-}
-
 .textbox1 {
     position: absolute;
-    top: 42vh;
+    top: 46vh;
     width: 100vw;
     text-align: center;
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     text-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.scroll {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    right: .1vw;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10rem;
+}
+
+.scroll_tekst {
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+.scroll_tegn {
+    margin: 1rem;
+}
+
+/* ------------------------------------------------------- Tekstbokse ------------------------------------------------------- */
+
+.textbox {
+    width: 50vw;
+    margin-left: 25vw;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 1rem;
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
+    padding: 1rem 1rem 1rem 2rem;
 }
 
 .textbox2 {
     position: absolute;
-    top: 8vh;
-    width: 50vw;
-    margin-left: 25vw;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 3px;
-    font-size: 1rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
-    padding: 1rem 1rem 1rem 2rem;
+    top: 26vh;
+    left: 106rem;
 }
 
 .textbox3 {
     position: absolute;
-    top: 4vh;
-    width: 50vw;
-    margin-left: 25vw;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 3px;
-    font-size: 1rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
-    padding: 1rem 1rem 1rem 2rem;
+    top: 21vh;
+    left: 200rem;
 }
 
 .textbox4 {
     position: absolute;
-    top: 4vh;
-    width: 50vw;
-    margin-left: 25vw;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 3px;
-    font-size: 1rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
-    padding: 1rem 1rem 1rem 2rem;
+    top: 21vh;
+    left: 306rem;
 }
 
 .textbox5 {
     position: absolute;
-    top: 4vh;
-    width: 50vw;
-    margin-left: 25vw;
-    transform: translate(-50%, -50%);
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 3px;
-    font-size: 1rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
-    padding: 1rem 1rem 1rem 2rem;
+    top: 23vh;
+    left: 401rem;
 }
 
-.textbox p {
-    padding: 2rem;
-}
-
-.textbox h1 {
-    margin: 0;
-    padding: 2rem 1rem;
-}
-
-.textbox_h {
-    
-    font-size: 1.5rem;
-    margin: 2rem;
-    display: block;
-}
+/* ------------------------------------------------------- Elementer i bevægelse ------------------------------------------------------- */
 
 .sun {
     position: absolute;
@@ -221,39 +236,7 @@ p {
     width: 30rem;
 }
 
-.tilbage {
-    position: absolute;
-    top: 4%;
-    left: 2vw;
-    background-color: #fff;
-    border-radius: 300rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8);
-}
-
-.tilbage_tegn {
-    margin: 1rem 1.1rem;
-}
-
-.scroll {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    top: 50%;
-    right: .1vw;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    border-radius: 10rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
-}
-
-.scroll_tekst {
-    margin: 1rem 0rem 1rem 1rem;
-}
-
-.scroll_tegn {
-    margin: 1rem;
-    
-}
+/* ------------------------------------------------------- Elementer på afslutningssiden ------------------------------------------------------- */
 
 .logo1 {
     position: absolute;
@@ -272,16 +255,6 @@ p {
     text-align: center;
     font-family: proxima-nova, sans-serif;
     font-size: 1.5rem;
-}
-
-.baggrund2 {
-    height: 700px;
-    width: 1800px;
-    position: absolute;
-    left: 478rem;
-    z-index: -101;
-    top: 0;
-    background-image: url(billeder/SpireBaggrund.png);
 }
 
 .textbox7 {
@@ -327,8 +300,4 @@ p {
     padding: 1.8rem 0 0 0;
     width: 15rem;
     margin: 2rem;
-}
-
-.spire {
-    
 }
