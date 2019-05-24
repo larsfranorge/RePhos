@@ -18,7 +18,7 @@ p {
 
 .baggrund {
     height: 700px;
-    width: 9500px;
+    width: 7655px;
     background-image: linear-gradient(to bottom left, rgba(135, 206, 235, 1) 60%, rgba(237, 233, 121, .7));
     z-index: -100;
     position: absolute;
@@ -66,7 +66,7 @@ p {
     background-color: #fff;
     border-radius: 3px;
     font-size: 1rem;
-    text-shadow: rgba(0, 0, 0, 1);
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
     padding: 1rem 1rem 1rem 2rem;
 }
 
@@ -80,7 +80,7 @@ p {
     background-color: #fff;
     border-radius: 3px;
     font-size: 1rem;
-    text-shadow: rgba(0, 0, 0, 1);
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
     padding: 1rem 1rem 1rem 2rem;
 }
 
@@ -94,7 +94,7 @@ p {
     background-color: #fff;
     border-radius: 3px;
     font-size: 1rem;
-    text-shadow: rgba(0, 0, 0, 1);
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
     padding: 1rem 1rem 1rem 2rem;
 }
 
@@ -108,7 +108,7 @@ p {
     background-color: #fff;
     border-radius: 3px;
     font-size: 1rem;
-    text-shadow: rgba(0, 0, 0, 1);
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
     padding: 1rem 1rem 1rem 2rem;
 }
 
@@ -217,7 +217,7 @@ p {
 .car {
     position: absolute;
     left: 340rem;
-    bottom: 10vh;
+    top: 63vh;
     width: 30rem;
 }
 
@@ -227,7 +227,7 @@ p {
     left: 2vw;
     background-color: #fff;
     border-radius: 300rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8));
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8);
 }
 
 .tilbage_tegn {
@@ -243,7 +243,7 @@ p {
     transform: translate(-50%, -50%);
     background-color: #fff;
     border-radius: 10rem;
-    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8));
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
 }
 
 .scroll_tekst {
@@ -258,7 +258,7 @@ p {
 .logo1 {
     position: absolute;
     left: 545rem;
-    top: 20%;
+    top: 15%;
     transform: translate(-50%, -50%);
     justify-content: center;
     width: 10rem;
@@ -267,10 +267,68 @@ p {
 .textbox6 {
     position: absolute;
     left: 497.5rem;
-    top: 32%;
+    top: 28%;
     width: 100vw;
     text-align: center;
     font-family: proxima-nova, sans-serif;
     font-size: 1.5rem;
-    color: #fff;
+}
+
+.baggrund2 {
+    height: 700px;
+    width: 1800px;
+    position: absolute;
+    left: 478rem;
+    z-index: -101;
+    top: 0;
+    background-image: url(billeder/SpireBaggrund.png);
+}
+
+.textbox7 {
+    position: absolute;
+    left: 520rem;
+    top: 40%;
+    width: 20rem;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.textbox7 p {
+    
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.motion_boom {
+    width: 15rem;
+    margin: 2rem 2rem 0rem 2rem;
+}
+
+.textbox8 {
+    position: absolute;
+    left: 550rem;
+    top: 40%;
+    width: 20rem;
+    height: 22rem;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.textbox8 p {
+    font-size: 1.2rem;
+    margin: 0 0 4rem 0;
+}
+
+.textbox7:hover, .textbox8:hover {
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.2);
+}
+
+.motion_produkt {
+    padding: 1.8rem 0 0 0;
+    width: 15rem;
+    margin: 2rem;
+}
+
+.spire {
+    
 }
