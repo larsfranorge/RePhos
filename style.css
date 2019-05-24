@@ -22,9 +22,9 @@ html, body {
   position: fixed; 
   width: 100%;
   top: 0; 
-  z-index: 9999; 
     display: inline-block;
     text-align: center;
+    z-index: 9;
 }
 
 
@@ -306,10 +306,7 @@ html, body {
     display: none;
 }
     
-    .forside_boks {
-    display: none;
-    
-}
+
 
 .forside_h {
     display: none;
