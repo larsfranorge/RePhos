@@ -497,8 +497,8 @@ html, body {
     
          .gras {
         display: grid;
-             background-image: url(Billeder/bggtilprodukter.png);
-    height: 150px;
+    background-image: url(Billeder/bggtilprodukter1.png);
+    height: 190px;
     width: 100%;
         text-align: center;
         grid-template-columns:. 1fr;
