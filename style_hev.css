@@ -74,15 +74,18 @@ html, body {
 
 .gras {
     grid-area: gras;
+        background-image: url(Billeder/bggtilprodukter1.png);
+    height: 190px;
+    width: 100%;
+        text-align: center;
 }
 
 
 .footer {
     grid-area: footer;
-    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
-    background: white;
+    background-color: rgb(215, 196, 161);
     text-align: center;
-    padding: 60px;
+    padding: 40px;
     font-size: 25px; 
     font-family: proxima nova, sans-serif;
     color: black;
@@ -317,7 +320,7 @@ html, body {
 
 
 /*Tablet and above*/
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 950px) {
     .container {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -520,32 +523,38 @@ html, body {
 
     
     .footer {
+        background-color: rgb(215, 196, 161);
          font-size: 30px;
       display: grid;
-         text-align: left;
-         padding-left: 50px;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-            "billede icons"
+            "icons icons1 icons2"
     
  
     }
     .icons {
-        text-align: right;
+        
         grid-area: icons;
             
         
     }
     
-    
-    
-    .footerbillede {
-        grid-area: billede;
-        background-image: url(Billeder/FinalLOGO.png);
-        background-position: left;
-        background-size: 30%;
-        background-repeat: no-repeat;
+        .icons1 {
+        
+        grid-area: icons1;
+            
+        
     }
+    
+        .icons2 {
+        
+        grid-area: icons2;
+            
+        
+    }
+    
+    
+
     
     
 
