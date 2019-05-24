@@ -1,0 +1,67 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.kontakt h1 {
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: .1rem;
+    color: #86ae6f;
+    text-shadow: 0 1.5rem 10rem #000;
+}
+
+.kontakt p {
+    font-family: proxima-nova, sans-serif;
+    letter-spacing: .1rem;
+
+}
+
+.kontakt {
+    width: 100%;
+    height: 100%;
+    margin-top: 16rem;
+}
+
+.kontakt_baggrund {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 52.5%, rgba(255, 255, 255, 0.1) 52.5%), url(Billeder/kontaktBaggrund.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 10rem;
+    padding: 2rem 0 2rem 4rem;
+    width: 75%;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.3);
+}
+
+.etiket {
+    display: block;
+    padding: 0 0 0.5rem 0;
+    
+}
+
+.inputfelt {
+    border: 1px solid #86ae6f;
+    border-radius: 3px;
+    padding: 0.5rem;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    width: 40%;
+}
+
+.kontakt__button {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 0.5rem;
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.kontakt__button:hover {
+    color: #86ae6f;
+    border-color: #86ae6f;
+}

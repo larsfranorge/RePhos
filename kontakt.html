@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style_hev.css">
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
     <link rel="stylesheet" href="https://use.typekit.net/beb1ucs.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.typekit.net/glq8xcr.css">
@@ -18,8 +19,6 @@
 </head>
 
 <body>
-
-
 
     <div class="container">
 
@@ -50,6 +49,29 @@
         </div>
 
         <script src="js.js"></script>
+        
+
+        <section class="kontakt">
+            <div class="kontakt_baggrund">
+                <h1>Kontakt</h1>
+                <form method="post" action="#">
+                    <p>
+                        <label for="navn" class="etiket">Dit navn:</label>
+                        <input type="text" class="inputfelt" name="navn" id="navn" required autofocus>
+                    </p>
+                    <p>
+                        <label for="email" class="etiket">Din email:</label>
+                        <input type="email" class="inputfelt" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <label for="besked" class="etiket">Besked:</label>
+                        <textarea name="besked" id="besked" cols="17" rows="10" class="inputfelt"></textarea>
+                    </p>
+                    <button class="kontakt__button">Send email</button>
+                </form>
+            </div>
+        </section>
+
 
         <footer class="footer">
                 <div class="icons">
