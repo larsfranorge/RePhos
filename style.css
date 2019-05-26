@@ -14,20 +14,20 @@ html, body {
 
 #navbar {
     
-  overflow: hidden;
-    box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
-  background-color: white;
-  padding: 10px 10px; 
-  transition: 0.4s; 
-  position: fixed; 
-  width: 100%;
-  top: 0; 
-    display: inline-block;
-    text-align: center;
-    z-index: 9;
-}
-
-
+    overflow: hidden;
+      box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
+    background-color: white;
+    padding: 10px 10px; 
+    transition: 0.4s; 
+    position: fixed; 
+    width: 100%;
+    top: 0; 
+    z-index: 9999; 
+      display: inline-block;
+      text-align: center;
+  }
+  
+  
 #navbar a {
   color: black;
   text-align: center;
@@ -44,124 +44,123 @@ html, body {
 #navbar a:hover {
   color: #86ae6f;
 }
-
-
-#logo {
-      max-height: 8%;
-    margin: auto auto auto auto;
-    width: 8%;
-  transition: 0.4s;
-    
-    
-}
-
-
-
-    
-}
-
-@media screen and (max-width: 920px) {
-  #navbar {
-    display: none;
+  
+  
+  #logo {
+        max-height: 8%;
+      margin: auto auto auto auto;
+      width: 8%;
+    transition: 0.4s;
+      
+      
   }
-  #navbar a {
-    display: none;
-   
-  }
-    #logo {
-        display: none;
+  
+  
+
+  
+  @media screen and (max-width: 920px) {
+    #navbar {
+      display: none;
     }
-}
-
-
-
+    #navbar a {
+      display: none;
+     
+    }
+      #logo {
+          display: none;
+      }
+  }
+  
+  
+  
 
 
 /* Navbar Slut */
 
 
 
-@media screen and (max-width: 920px) {
-.topnav {
-  overflow: hidden;
-  background-color: white;
-  position: relative;
-    box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
-}
-
-
-.topnav #myLinks {
-  display: none;
-}
-
-
-.topnav a {
-  color: #8fad75;
-    font-family: proxima nova,sans-serif;
-    background: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-
-.topnav a.icon {
-  background: white;
-    color: #8fad75;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-    
-
-
-.topnav a:hover {
-  background-color: white;
-  color: black;
-}
-
-
-    #lillelogo {
-        padding-left: 10px;
-    max-width: 10%;    
-    }
-}
-
-
-@media screen and (min-width: 920px) {
-.topnav {
+  
+  @media screen and (max-width: 920px) {
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+      box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .topnav #myLinks {
     display: none;
-}
-
-
-.topnav #myLinks {
-  display: none;
-}
-
-
-.topnav a {
- display: none;
-}
-
-
-.topnav a.icon {
-  display: none;
-}
-    
-
-
-.topnav a:hover {
-  display: none;
-}
-
-
-.active {
-  display: none;
-}
-}
-
+  }
+  
+  
+  .topnav a {
+    color: #8fad75;
+      font-family: proxima nova,sans-serif;
+      background: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  .topnav a.icon {
+    background: white;
+      color: #8fad75;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+      
+  
+  
+  .topnav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  
+      #lillelogo {
+          padding-left: 10px;
+      max-width: 10%;    
+      }
+  }
+  
+  
+  @media screen and (min-width: 920px) {
+  .topnav {
+      display: none;
+  }
+  
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  
+  .topnav a {
+   display: none;
+  }
+  
+  
+  .topnav a.icon {
+    display: none;
+  }
+      
+  
+  
+  .topnav a:hover {
+    display: none;
+  }
+  
+  
+  .active {
+    display: none;
+  }
+  }
+  
 /* Navbar Slut */
 
 
