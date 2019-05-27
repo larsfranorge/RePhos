@@ -260,7 +260,7 @@ width: 30%;
 }
 
 .champostbillede {
-    width: 25%; 
+    width: 15%; 
 
 }
 
@@ -272,25 +272,26 @@ width: 30%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
+
 }
 .card1 {
     position: relative;
-    width: 400px;
-    height: 308px;
+    width: 360px;
+    height: 277px;
     overflow: hidden;
 }
 
 .card2 {
     position: relative;
-    width: 400px;
-    height: 308px;
+    width: 360px;
+    height: 277px;
     overflow: hidden;
 }
 
 .card3 {
     position: relative;
-    width: 400px;
-    height: 308px;
+    width: 360px;
+    height: 277px;
     overflow: hidden;
 }
 input,
