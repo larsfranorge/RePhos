@@ -5,11 +5,7 @@ html, body {
     padding: 0;
 }
 
-.icons {
-    font-size: 50px;
-    color: black;
-  
-}
+
 /* Navbar */
 
 #navbar {
@@ -168,27 +164,29 @@ html, body {
 
  
 
-  .footer {
-      box-shadow: 0 -1px 5px 1px rgba(0, 0, 0, 0.1);
-    font-size: 30px;
+.footer {
+    grid-area: footer;
+    background-color: rgb(215, 196, 161);
+    text-align: center;
+    padding: 40px;
+    font-size: 25px; 
     font-family: proxima nova, sans-serif;
- display: grid;
-    text-align: left;
-    padding-left: 50px;
-   grid-template-columns: 1fr 2fr;
-   grid-template-areas:
-       "billede icons"
-
-
+    color: black;
+    
 }
+
 .icons {
-   text-align: right;
-   grid-area: icons;
-    padding-right: 30px;
-       
-   
+    font-size: 20px;
+    color: black;
+    
+  
 }
 
+.iconer {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
 
 
 
@@ -202,14 +200,6 @@ html, body {
 }
 
 
-
-.iconer {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: proxima nova, sans-serif;
-    
-}
 
 
 /* Footer slut */
@@ -381,3 +371,43 @@ html, body {
 }
 
 
+.gras {
+        background-image: url(Billeder/bggtilprodukter1.png);
+    height: 190px;
+    width: 100%;
+        text-align: center;
+}
+
+
+    .footer {
+        background-color: rgb(215, 196, 161);
+         font-size: 30px;
+      display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "icons icons1 icons2"
+    
+ 
+    }
+    .icons {
+        
+        grid-area: icons;
+            
+        
+    }
+    
+        .icons1 {
+        
+        grid-area: icons1;
+            
+        
+    }
+    
+        .icons2 {
+        
+        grid-area: icons2;
+            
+        
+    }
+    
+    
