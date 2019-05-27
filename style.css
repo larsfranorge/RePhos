@@ -238,12 +238,12 @@ html, body {
 
 .forside_boks {
     position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 60%;
+  left: 52.5%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: white;
-  color: black;
+  background-color: #86ae6f;
+  color: white;
   font-size: 16px;
   padding: 18px 24px;
   border: none;
@@ -252,15 +252,15 @@ html, body {
   box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8);
   text-align: center;
     text-decoration-line: none;
-    font-family: athelas;
+    font-family: proxima-nova, sans-serif;
     font-size: 1.5rem;
-    padding: 3rem;
+    padding: 2.5rem;
     transition: all .2s;
     
 }
 
 .forside-boks:hover {
-  box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 1);
+  box-shadow: 0 1.5rem 10rem rgba(255, 255, 255, 1);
   color: #86ae6f;
 }
 
