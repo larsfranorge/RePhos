@@ -266,26 +266,27 @@ width: 30%;
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    width: 95%;
 
 }
 .card1 {
     position: relative;
-    width: 360px;
-    height: 277px;
+    width: 340px;
+    height: 262px;
     overflow: hidden;
 }
 
 .card2 {
     position: relative;
-    width: 360px;
-    height: 277px;
+    width: 340px;
+    height: 262px;
     overflow: hidden;
 }
 
 .card3 {
     position: relative;
-    width: 360px;
-    height: 277px;
+    width: 340px;
+    height: 262px;
     overflow: hidden;
 }
 input,
