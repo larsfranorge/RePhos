@@ -248,13 +248,20 @@ html, body {
   padding: 18px 24px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10rem;
+  box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.8);
   text-align: center;
     text-decoration-line: none;
     font-family: athelas;
     font-size: 1.5rem;
-    margin: 2rem;
+    padding: 3rem;
+    transition: all .2s;
     
+}
+
+.forside-boks:hover {
+  box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 1);
+  color: #86ae6f;
 }
 
 
