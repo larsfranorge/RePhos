@@ -309,12 +309,13 @@ input
 {
     pointer-events: none;
     border-radius: 50%;
-    background: #fff;
+    background: #86ae6f;
     transition: 0.5s;
     text-align: center;
     line-height: 50px;
     font-size: 36px;
     box-shadow: 0 0 0 0px #86ae6f;
+    color: white;
 }
 input:checked ~ .toggle
 
