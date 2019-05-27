@@ -170,27 +170,28 @@ html ,body {
   /* Footer */
 
  
-
-  .footer {
-      box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
-    font-size: 30px;
+.footer {
+    grid-area: footer;
+    background-color: rgb(215, 196, 161);
+    text-align: center;
+    padding: 40px;
+    font-size: 25px; 
     font-family: proxima nova, sans-serif;
- display: grid;
-      background: none;
-    text-align: left;
-    padding-left: 50px;
-   grid-template-columns: 1fr 2fr;
-   grid-template-areas:
-       "billede icons"
-
-
+    color: black;
+    
 }
+
 .icons {
-   text-align: right;
-   grid-area: icons;
-    padding-right: 
-       
-   
+    font-size: 20px;
+    color: black;
+    
+  
+}
+
+.iconer {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -207,13 +208,6 @@ html ,body {
 
 
 
-.iconer {
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: proxima nova, sans-serif;
-    
-}
 
 
 /* Footer slut */
@@ -369,21 +363,43 @@ input:checked ~ .content {
     }
 }
 
-@media screen and (max-width: 920px) {
-
-.footer {
-  text-align: center;
-  grid-template-areas:
-  "icons icons";
-  padding-left: 0px;
+.gras {
+        background-image: url(Billeder/bggtilprodukter1.png);
+    height: 190px;
+    width: 100%;
+        text-align: center;
 }
 
-.icons {
-  text-align: center;
-}
 
-.footerbillede {
-  display: none;
-}
-  
-}
+    .footer {
+        background-color: rgb(215, 196, 161);
+         font-size: 30px;
+      display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+            "icons icons1 icons2"
+    
+ 
+    }
+    .icons {
+        
+        grid-area: icons;
+            
+        
+    }
+    
+        .icons1 {
+        
+        grid-area: icons1;
+            
+        
+    }
+    
+        .icons2 {
+        
+        grid-area: icons2;
+            
+        
+    }
+    
+    
